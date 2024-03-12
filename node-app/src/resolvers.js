@@ -1,12 +1,3 @@
-const employee = [
-  {
-    id: -76.979235,
-    firstName: "Piyal",
-    lastName: "Chatterjee",
-  },
-];
-
-
 const resolvers = {
   Query: {
     Users: () =>

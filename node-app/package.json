@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@apollo/datasource-rest": "^6.2.2",
     "@graphql-tools/schema": "^10.0.3",
     "apollo-server": "^3.13.0",
     "apollo-server-core": "^3.13.0",
